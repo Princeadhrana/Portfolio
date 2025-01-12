@@ -2,6 +2,7 @@ import projects1 from "../assets/projects1.webp";
 import projects2 from "../assets/projects2.webp";
 import projects3 from "../assets/projects3.webp";
 
+
 export const LINKS = [
   { href: "#work", label: "Work" },
   { href: "#about", label: "About" },
@@ -15,7 +16,7 @@ export const HERO_CONTENT = {
   description:
     "",
   resumeLinkText: "Download Resume",
-  resumeLink: "/resume.pdf",
+  resumeLink: "/prince_resume12.pdf",
 };
 
 export const PROJECTS = [
