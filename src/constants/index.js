@@ -15,8 +15,7 @@ export const HERO_CONTENT = {
     "I’m Prince Chaudhary, a creative frontend developer, crafting immersive and intuitive web experiences.",
   description:
     "",
-  resumeLinkText: "Download Resume",
-  resumeLink: "/prince_resume12.pdf",
+  resumeLinkText: "Download Resume"
 };
 
 export const PROJECTS = [
