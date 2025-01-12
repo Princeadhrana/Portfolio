@@ -1,6 +1,7 @@
 import { motion } from "framer-motion"
 import { HERO_CONTENT } from "../constants"
 import prince from "../assets/prince.webp"
+import prince_resume from "../constants/prince_resume12.pdf"
 
 const textVarients = {
     hidden: {opacity: 0, y:50},
@@ -38,7 +39,7 @@ const Hero = () => {
                 <motion.p className="text-xl md:text-2xl lg:text-4xl" variants={textVarients}>
                     {HERO_CONTENT.description}
                 </motion.p>
-                <motion.a className="bg-stone-50 text-stone-900 p-3 lg:p-4 mt-8 inline-block rounded-2xl" href={HERO_CONTENT.resumeLink} download rel=" noopener noreferrer" target="_blank" varients={textVarients}>
+                <motion.a className="bg-stone-50 text-stone-900 p-3 lg:p-4 mt-8 inline-block rounded-2xl" href={prince_resume} download rel=" noopener noreferrer" target="_blank" varients={textVarients}>
                     {HERO_CONTENT.resumeLinkText}
                 </motion.a>
             </motion.div>
