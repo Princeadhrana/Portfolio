@@ -20,9 +20,9 @@ const Navbar = () => {
           <a href="/">Prince Chaudhary</a>
         </div>
 
-        <div>
+        <div className="hidden md:flex space-x-8">
             {LINKS.map((link,index)=> (
-              <a href={link.href} key={index} className="text-white hover:text-stone-400 transition duration-300">
+              <a href={link.href} key={index} className="text-white hover:text-stone-400 transition duration-300 px-2">
                 {link.label}
               </a>
             ))}
